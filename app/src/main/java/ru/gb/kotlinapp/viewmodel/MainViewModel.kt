@@ -31,7 +31,7 @@ class MainViewModel(
         }.start()
 
     }
-
+// random access
     private fun getRandomSuccess(): Boolean {
         return (Math.random() * 2).toInt() != 0
     }
